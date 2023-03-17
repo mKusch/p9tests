@@ -30,8 +30,8 @@ jobs:
     #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
-    - run: |        
-        fs.readdirSync('../artifacts').forEach(file => {
+    - run: |    
+        fs.readdirSync(path.resolve(__dirname, '../artifacts')).forEach(file => {
         console.log(file);
         });
         done
