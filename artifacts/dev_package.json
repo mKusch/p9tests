@@ -1,0 +1,45 @@
+{
+	"id": "f47e3f69-eb5c-497e-8b36-cbf9e3af3f9c",
+	"createdAt": "2023-03-17T04:22:13.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/mKusch/p9tests"
+	},
+	"name": "Testing-Package",
+	"description": null,
+	"ver": "23.3.17.532",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "0da124ed-5183-4963-a870-8b60b6510428",
+			"application": "testingapp",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": []
+}
