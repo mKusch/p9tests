@@ -1,7 +1,9 @@
 /**
  * Example test file after deployment.
  */
-console.dir('hellle')
+
+require('./oJavascript.script');
+
 describe(`Running functions`, () => {
 
     test('function add', () => {
