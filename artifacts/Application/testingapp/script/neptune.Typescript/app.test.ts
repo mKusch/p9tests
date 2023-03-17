@@ -2,7 +2,7 @@
  * Example test file after deployment.
  */
 
-import { add } from 'oJavascript.script';
+import { add } from '../neptune.Script/oJavascript.script';
 
 console.dir(add(22,4))
 
