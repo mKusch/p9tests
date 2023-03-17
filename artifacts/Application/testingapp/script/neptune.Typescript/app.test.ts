@@ -2,7 +2,7 @@
  * Example test file after deployment.
  */
 
-import { add } from '../neptune.Script/oJavascript.script';
+import { add } from '../neptune.Script/oJavascript.js';
 
 describe(`Running functions`, () => {
 
