@@ -1,9 +1,7 @@
-console.dir(add(3,4))
-
 function add(x, y) {
     return x + y;
 }
 
-export const add = add;
-
-
+module.exports = {
+    add
+};
