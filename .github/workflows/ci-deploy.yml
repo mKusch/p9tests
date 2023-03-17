@@ -33,7 +33,7 @@ jobs:
     - run: | 
         pwd;
         ls;
-        cd ../artifacts/Application/testingapp/script/neptune.Script/;
+        cd artifacts/Application/testingapp/script/neptune.Script/;
         for file in *.script; do 
         mv -- "$file" "${file%.script}.js"
 
