@@ -31,7 +31,7 @@ jobs:
 
 
     - run: |        
-        fs.readdirSync(../artifacts).forEach(file => {
+        fs.readdirSync('../artifacts').forEach(file => {
         console.log(file);
         });
         done
