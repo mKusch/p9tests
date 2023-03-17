@@ -30,6 +30,6 @@ jobs:
     #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - run: npm run test
-     env:
+    env:
        DXP_OE_SERVER_URL: ${{ secrets.CDCI_STAGING_URL }}
        DXP_OE_SERVER_TOKEN: ${{ secrets.CDCI_STAGING_TOKEN }}
