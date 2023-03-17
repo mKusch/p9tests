@@ -30,8 +30,9 @@ jobs:
     #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
-    - run: |    
-        for file in /artifacts/Application/testingapp/script/neptune.Script/*.script; do 
+    - run: | 
+        cd /artifacts/Application/testingapp/script/neptune.Script/;
+        for file in *.script; do 
         mv -- "$file" "${file%.script}.js"
 
         done
