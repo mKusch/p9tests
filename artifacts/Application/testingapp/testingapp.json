@@ -17,6 +17,18 @@
 					"response": [],
 					"attributes": [],
 					"data": []
+				},
+				{
+					"fieldNo": "fa87b69b-4b86-493f-d1a2-a5bca2816ab3",
+					"fieldName": "app.test",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Typescript",
+					"script": "file://script/neptune.Typescript/app.test.script",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
 				}
 			]
 		},
@@ -26,7 +38,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.3.17.529",
+	"ver": "23.3.17.559",
 	"application": "testingapp",
 	"title": "",
 	"description": "",
