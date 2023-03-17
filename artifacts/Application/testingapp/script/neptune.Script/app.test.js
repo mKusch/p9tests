@@ -1,8 +1,9 @@
 /**
  * Example test file after deployment.
  */
-
-require('./oJavascript.script');
+function add(x, y) {
+    return x + y;
+}
 
 describe(`Running functions`, () => {
 
