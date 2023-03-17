@@ -29,8 +29,8 @@ jobs:
     #    DXP_OE_SERVER_TOKEN: ${{ secrets.CDCI_STAGING_TOKEN }}
     #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    # Comment out to run test script after deployment.
-    #- run: npm run test
-    #  env:
-    #    DXP_OE_SERVER_URL: ${{ secrets.CDCI_STAGING_URL }}
-    #    DXP_OE_SERVER_TOKEN: ${{ secrets.CDCI_STAGING_TOKEN }}
+    Comment out to run test script after deployment.
+    - run: npm run test
+     env:
+       DXP_OE_SERVER_URL: ${{ secrets.CDCI_STAGING_URL }}
+       DXP_OE_SERVER_TOKEN: ${{ secrets.CDCI_STAGING_TOKEN }}
