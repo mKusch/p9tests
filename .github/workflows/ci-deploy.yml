@@ -29,6 +29,17 @@ jobs:
     #    DXP_OE_SERVER_TOKEN: ${{ secrets.CDCI_STAGING_TOKEN }}
     #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+
+    - run: |    
+        for file in ../artifacts/Application/testingapp/script/neptune.Script/*.script; do 
+        mv -- "$file" "${file%.script}.js"
+
+        done
+    
+      
+
+
+
     - run: npm run test
     env:
        DXP_OE_SERVER_URL: ${{ secrets.CDCI_STAGING_URL }}
